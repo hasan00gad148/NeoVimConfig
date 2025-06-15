@@ -77,6 +77,7 @@ return {
       require("telescope").setup()
     end,
   },
+
 }
 
 

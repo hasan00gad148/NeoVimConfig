@@ -1,5 +1,10 @@
 local keymap = vim.keymap
 
+-- leader key mapping to space
+-------------------------
+vim.g.mapleader = " " 
+vim.g.maplocalleader = " " 
+
 -- General Keymaps --
 ---------------------
 -- Save current file
@@ -111,3 +116,4 @@ keymap("n", "<leader>fh", require("telescope.builtin").help_tags, opts)
 keymap("n", "<leader>fs", require("telescope.builtin").lsp_document_symbols, opts)
 -- Find references (LSP)
 keymap("n", "<leader>fr", require("telescope.builtin").lsp_references, opts)
+
