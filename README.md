@@ -13,8 +13,10 @@ Welcome to my Neovim setup! This configuration is tailored for performance, prod
 - 🧱 File explorer with `nvim-tree.lua` or `neo-tree`
 - 🗺️ Easy navigation with custom keymaps and motions
 - 🧩 Extensible and modular Lua-based plugin config
+- 🛠️ Git signs and diffs via `gitsigns.nvim` and built-in diff mode
 
-- 
+
+
 ## 📁 File Structure
 ```bash
 ~/.config/nvim/
