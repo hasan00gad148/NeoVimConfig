@@ -22,6 +22,9 @@ keymap.set('n', '<C-u>', '<C-u>zz')
 keymap.set('n', 'n', 'nzzzv')
 -- Previous search result with centered view
 keymap.set('n', 'N', 'Nzzzv')
+-- move selected text up and down 
+keymap.set({'x','n'}, '<A-k>', ":m '<-2<CR>gv=gv", {desc = '', silent = true})
+keymap.set({'x','n'},'<A-j>', ":m '>+1<CR>gv=gv", {desc = '', silent = true}) 
 
 -- Window Management --
 ----------------------
