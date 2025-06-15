@@ -2,8 +2,6 @@ local keymap = vim.keymap
 
 -- leader key mapping to space
 -------------------------
-vim.g.mapleader = " " 
-vim.g.maplocalleader = " " 
 
 -- General Keymaps --
 ---------------------
