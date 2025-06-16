@@ -38,8 +38,8 @@ return {
         capabilities = capabilities,
       })
 
-      -- pyLSP
-      lspconfig.pylsp.setup({
+      -- pyright LSP
+      lspconfig.pyright.setup({
         capabilities = capabilities,
       })
     
@@ -73,5 +73,22 @@ return {
       })
     end,
   },
+  -- treesitter
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    config = function()
+    require("nvim-treesitter.configs").setup{
+        ensure_installed = { "python","lua","bash",
+        "json","yaml","markdown","vim"},
+        highlights = {
+            enable = true,
+            additional_vim_regex_highlighting = false,
+        },
+        indent = { enable = true},
+    }
+    end,
+},
+
 }
 
