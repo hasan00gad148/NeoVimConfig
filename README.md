@@ -1,5 +1,5 @@
 
-# 🛠️ My Neovim Configuration
+# 🛠️ My Neovim Configuration  "v11"
 
 Welcome to my Neovim setup! This configuration is designed for **performance**, **productivity**, and a modern development experience using **Lua**, **Lazy.nvim**, and a well-curated set of plugins.
 
